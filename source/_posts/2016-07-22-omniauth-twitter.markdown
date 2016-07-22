@@ -9,6 +9,8 @@ categories:
 Omniauth_twitter gem allows you to login your web app with twitter account.
 First you need to sign in to Twitter Applcation (https://apps.twitter.com/) to create new app and generate keys.
 
+Install gem 'omniauth-twitter'
+
 Create a new file config/initializers/omniauth.rb
 
     Rails.application.config.middleware.use OmniAuth::Builder do
