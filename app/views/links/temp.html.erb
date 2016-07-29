@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+
+<h3>Your URL was shortened</h3>
+
+<p>The new short URL is <%= link_to "#{link_url(@link)}", link_path(@link) %></p>
+
+<p>The Url leads to <%= link_to @link.url, @link.url %></p>
