@@ -1,28 +1,6 @@
-== README
+# Basic Url-Shortener Service App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+### User Story
+1. As user, user should see enter url form. After submitting URL.
+A new shorten URL will be provided. If shorten URL is clicked, user will be
+redirected to original URL.
