@@ -20,6 +20,7 @@ Create a new file config/initializers/omniauth.rb
 Then you need to restart server so new configuration will pick up. Now go to http://127.0.0.1:3000/auth/twitter and you should see twitter login page. Then you should see a routing error. To fix this we need to open our routes.rb and add
 
     GET '/auth/:provider/callback', to: 'sessions#create'
+    get "/fb_login" => redirect("/auth/twitter"), as: :twitter_login
 
 and create a session controller
 
