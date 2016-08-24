@@ -33,7 +33,7 @@ end
 
 1. In review.rb model add
 
-```
+```ruby 
 belongs_to :product
 
 validates :rating, :user_id, :product_id, presence: true
@@ -41,7 +41,8 @@ validates :rating, numericality: { only_integer: true, :greater_than => 0,  :les
 ```
 
 1. Finally in product model add
-```
+
+```ruby
 def num_reviews
   reviews.count
 end
