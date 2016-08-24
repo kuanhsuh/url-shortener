@@ -13,7 +13,7 @@ categories:
 
 1. Create `config/nginx.conf` file
 
-```conf
+```ruby
 upstream puma {
   server unix:///home/deploy/KaohsiungRubbishTruck/shared/tmp/sockets/KaohsiungRubbishTruck-puma.sock;
 }
